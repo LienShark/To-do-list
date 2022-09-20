@@ -8,12 +8,55 @@
 	<h1>Shark's to do list </h1>
 	<form>
 		<input id = 'todo' type = 'text' name = 'TodoList'>
+		<select id = 'option'>
+			<option value="mon">禮拜一</option>
+			<option value="thu">禮拜二</option>
+			<option value="wen">禮拜三</option>
+			<option value="tus">禮拜四</option>
+			<option value="fri">禮拜五</option>
+		</select>
 		<button id = 'btn' type = 'button'>送出</button>
 	</form>
 	<hr>
-	<ul id = 'result'>
 
-	</ul>
+	<table border="3">
+    	<caption>一周行程表</caption>
+    	<tr>
+    		<td>時間</td>
+        	<th>Mon</th>
+        	<th>Thu</th>
+        	<th>Wen</th>
+        	<th>Tus</th>
+        	<th>Fri</th>
+    	</tr>
+    	<tr>
+        	<td>待辦事項</td>
+        	<td><ul id = 'result'></ul></td>
+        	<td><ul id = 'result1'></ul></td>
+        	<td><ul id = 'result2'></ul></td>
+        	<td><ul id = 'result3'></ul></td>
+        	<td><ul id = 'result4'></ul></td>
+    	</tr>
+    	<!--<tr>
+    		<td>下午</td>
+        	<td><ul></ul></td>
+        	<td><ul></ul></td>
+        	<td><ul></ul></td>
+        	<td><ul></ul></td>
+        	<td><ul></ul></td>
+    	</tr>
+    	<tr>
+    		<td>晚上</td>
+        	<td><ul></ul></td>
+        	<td><ul></ul></td>
+        	<td><ul></ul></td>
+        	<td><ul></ul></td>
+        	<td><ul></ul></td>
+    	</tr>-->
+	</table>
+
+
+
 
 	<script type="text/javascript" src = "main.js">
 		
